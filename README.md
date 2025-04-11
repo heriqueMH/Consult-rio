@@ -1,6 +1,5 @@
 ### README - java-api-consultorio
 
-```markdown
 # Java API - Consultório 🏥
 
 API desenvolvida em Java com Spring Boot para gerenciamento de consultas médicas e cadastro de pacientes.
@@ -21,7 +20,6 @@ API desenvolvida em Java com Spring Boot para gerenciamento de consultas médica
 
 ## 🚀 Como executar o projeto
 
-```bash
 git clone https://github.com/seu-usuario/java-api-consultorio.git
 cd java-api-consultorio
 mvn spring-boot:run
