@@ -1,18 +1,27 @@
-## Getting Started
+### README - java-api-consultorio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+```markdown
+# Java API - Consultório 🏥
 
-## Folder Structure
+API desenvolvida em Java com Spring Boot para gerenciamento de consultas médicas e cadastro de pacientes.
 
-The workspace contains two folders by default, where:
+## ✨ Funcionalidades
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Cadastro de pacientes
+- Agendamento de consultas
+- Listagem de pacientes e consultas
+- Cancelamento de consultas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🛠️ Tecnologias Utilizadas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Java 17
+- Spring Boot
+- JPA / Hibernate
+- Banco de Dados (PostgreSQL ou H2)
 
-## Dependency Management
+## 🚀 Como executar o projeto
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+git clone https://github.com/seu-usuario/java-api-consultorio.git
+cd java-api-consultorio
+mvn spring-boot:run
